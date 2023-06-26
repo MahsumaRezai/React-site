@@ -1,0 +1,8 @@
+.btn {
+    background: white;
+    width: 60px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    font-size: 15px;
+    height: 30px;
+}

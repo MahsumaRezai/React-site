@@ -18,6 +18,10 @@
     justify-content: flex-end;
     gap: 40px;
     align-items: flex-end;
+}
+
+.title {
+   text-align: start;
 
 
 }

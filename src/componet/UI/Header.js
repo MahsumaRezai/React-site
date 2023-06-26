@@ -5,10 +5,10 @@ const Header = () => {
     return (
         <div className={classes.head}>
             <div className={classes.content}>
-                <h3>React site</h3>
+                <div className={classes.title}>
+                    <h3>React site</h3>
+                </div>
                 <Button>log in</Button>
-
-
             </div>
         </div>
 
