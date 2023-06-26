@@ -5,18 +5,9 @@
   padding: 0;
 }
 
-html {
-  font-family:  sans-serif;
-  font-style: italic;
-}
 
 body {
   margin: 0;
   background-color: #333
-
-}
-
-main {
-  height: 800px;
 
 }
