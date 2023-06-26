@@ -1,10 +1,8 @@
-import { Fragment } from "react";
-
-const App = () => {
+import Header from "./componet/UI/Header";
+function App() {
   return (
-    <Fragment>
-
-    </Fragment>
-  )
+    <Header/>
+  );
 }
+
 export default App;
