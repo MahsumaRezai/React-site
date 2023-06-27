@@ -1,10 +1,8 @@
 .cart {
-    width: 20%;
-    height: 400px;
-    border: 1px solid gainsboro;
+    width: 30%;
+    border: 10px solid whitesmoke;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
 }

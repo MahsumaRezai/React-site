@@ -1,5 +1,11 @@
 .main {
     margin: auto;
     padding-top: 100px;
+    width: 70%;
+    
+}
+.content {
+    display: flex;
+    flex-direction: row;
     
 }

@@ -8,7 +8,13 @@ const SectionOne = (props) => {
         <Fragment>
             <main className={classes.main}>
                 <SectionHead />
-                <Cart/>
+                <div className={classes.content}>
+                    <Cart />
+                    <Cart />
+                    <Cart />
+                </div>
+
+
 
             </main>
 
