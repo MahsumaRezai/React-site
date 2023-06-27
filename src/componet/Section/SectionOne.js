@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 
-const Main = (props) => {
+const SectionOne = (props) => {
     return (
         <Fragment>
             <div>
@@ -9,4 +9,4 @@ const Main = (props) => {
         </Fragment>
     )
 }
-export default Main;
+export default SectionOne;
