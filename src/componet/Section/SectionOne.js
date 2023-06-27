@@ -1,11 +1,11 @@
 import { Fragment } from "react"
+import SectionHead from "./SectionHead";
 
 const SectionOne = (props) => {
     return (
         <Fragment>
-            <div>
-                <h2>hello</h2>
-            </div>
+            <SectionHead/>
+            
         </Fragment>
     )
 }
