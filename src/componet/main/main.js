@@ -1,11 +1,12 @@
-import { Fragment } from "react";
+import { Fragment } from "react"
 
-const main = (props) => {
-    <Fragment>
-        <main>
-            
-        </main>
-    </Fragment>
-
+const Main = (props) => {
+    return (
+        <Fragment>
+            <div>
+                <h2>hello</h2>
+            </div>
+        </Fragment>
+    )
 }
-export default main;
+export default Main;
