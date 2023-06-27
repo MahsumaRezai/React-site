@@ -1,8 +1,12 @@
 .cart {
     width: 30%;
     border: 10px solid whitesmoke;
-    display: flex;
     margin: auto;
     margin-top: 50px;
     box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 20px;
+}
+
+.img {
+    width: 100%;
 }
