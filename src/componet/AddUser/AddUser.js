@@ -1,4 +1,5 @@
 import classes from './Add.module.css'
+import Button from './Button';
 import Cartform from './Cartfrom';
 const AddUser = (posp) => {
     return (
@@ -6,14 +7,14 @@ const AddUser = (posp) => {
 
             <form className={classes.form}>
                 <label htmlFor="name">Name</label>
-                <input id="name"></input>
+                <input id="name" className={classes.input}></input>
                 <label htmlFor="lastname">LastName</label>
-                <input id="lastname"></input>
+                <input id="lastname" className={classes.input}></input>
                 <label htmlFor="email">Email</label>
-                <input id="email"></input>
+                <input id="email" className={classes.input}></input>
                 <label htmlFor="password">Password</label>
-                <input id="password"></input>
-                <button>sendme</button>
+                <input id="password" className={classes.input}></input>
+                <Button>send</Button>
 
             </form>
         </Cartform>
