@@ -1,0 +1,9 @@
+.cart {
+    width: 50%;
+    border: 10px solid whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 20px;
+    border-bottom: none;
+}
