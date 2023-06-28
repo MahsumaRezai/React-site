@@ -10,34 +10,38 @@ const AddUser = (posp) => {
 
     const formHandler = (event) => {
         event.preventDefault();
+        console.log(nameEnter,lastnameEnter,emailEnter,passwordEnter)
 
     }
     const nameInputHandler = (event) => {
-        setEnter(event.traget.value);
+        setEnter(event.target.value);
     }
 
     const lastInputHandler = (event) => {
-        setlastEnter(event.traget.value);
+        setlastEnter(event.target.value);
     }
     const emailInputHandler = (event) => {
-        setemailEnter(event.traget.value);
+        setemailEnter(event.target.value);
     }
     const passwordInputHandler = (event) => {
-        setpasswordEnter(event.traget.value);
+        setpasswordEnter(event.target.value);
     }
     return (
         <Cartform>
 
             <form className={classes.form} onSubmit={formHandler}>
                 <label htmlFor="name">Name</label>
-                <input id="name" className={classes.input}></input>
+                <input id="name" className={classes.input} onChange={nameInputHandler}></input>
+
                 <label htmlFor="lastname">LastName</label>
-                <input id="lastname" className={classes.input}></input>
+                <input id="lastname" className={classes.input} onChange={lastInputHandler}></input>
+
                 <label htmlFor="email">Email</label>
-                <input id="email" className={classes.input}></input>
+                <input id="email" className={classes.input} onChange={emailInputHandler}></input>
+
                 <label htmlFor="password">Password</label>
-                <input id="password" className={classes.input}></input>
-                <Button>send</Button>
+                <input id="password" className={classes.input} onChange={passwordInputHandler}></input>
+                <Button type="submit">send</Button>
 
             </form>
         </Cartform>
