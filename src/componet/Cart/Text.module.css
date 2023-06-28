@@ -6,4 +6,5 @@
 .text {
     line-height: 1.625;
     font-size: 17px;
+    padding-bottom: 10px;
 }

@@ -10,7 +10,14 @@ const AddUser = (posp) => {
 
     const formHandler = (event) => {
         event.preventDefault();
-        console.log(nameEnter,lastnameEnter,emailEnter,passwordEnter)
+        if (nameEnter.trim().length === 0 && lastnameEnter.length < 3 && emailEnter.includes('@') === -1 && passwordEnter.length < 5) {
+            return;
+        }
+        console.log(nameEnter, lastnameEnter, emailEnter, passwordEnter);
+        setEnter('');
+        setlastEnter('');
+        setemailEnter('');
+        setpasswordEnter('')
 
     }
     const nameInputHandler = (event) => {
@@ -31,16 +38,16 @@ const AddUser = (posp) => {
 
             <form className={classes.form} onSubmit={formHandler}>
                 <label htmlFor="name">Name</label>
-                <input id="name" className={classes.input} onChange={nameInputHandler}></input>
+                <input id="name" className={classes.input} onChange={nameInputHandler} value={nameEnter}></input>
 
                 <label htmlFor="lastname">LastName</label>
-                <input id="lastname" className={classes.input} onChange={lastInputHandler}></input>
+                <input id="lastname" className={classes.input} onChange={lastInputHandler} value={lastnameEnter}></input>
 
                 <label htmlFor="email">Email</label>
-                <input id="email" className={classes.input} onChange={emailInputHandler}></input>
+                <input id="email" className={classes.input} onChange={emailInputHandler} value={emailEnter}></input>
 
                 <label htmlFor="password">Password</label>
-                <input id="password" className={classes.input} onChange={passwordInputHandler}></input>
+                <input id="password" className={classes.input} onChange={passwordInputHandler} value={passwordEnter}></input>
                 <Button type="submit">send</Button>
 
             </form>
