@@ -9,6 +9,10 @@
     padding: 1rem;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 .users li {
     border: 1px solid #ccc;
     margin: 0.5rem 0;

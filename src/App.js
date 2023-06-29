@@ -8,7 +8,7 @@ function App() {
   const [userdata, setdata] = useState([]);
   const userHadler = (name, lastname, email, password) => {
     setdata((datapast) => {
-      return [...datapast, { name: name, lastname: lastname, email: email, password: password }];
+      return [...datapast, { name: name, lastname: lastname, email: email, password: password, id: Math.random().toString() }];
     })
 
   }

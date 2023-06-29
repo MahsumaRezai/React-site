@@ -2,6 +2,7 @@ import classes from './Add.module.css'
 import Button from './Button';
 import Cartform from './Cartfrom';
 import { useState } from 'react';
+const data = <p> Add Your Infromation</p>;
 const AddUser = (props) => {
     const [nameEnter, setEnter] = useState('');
     const [lastnameEnter, setlastEnter] = useState('');
@@ -10,8 +11,8 @@ const AddUser = (props) => {
 
     const formHandler = (event) => {
         event.preventDefault();
-        if (nameEnter.trim().length === 0 && lastnameEnter.length < 3 && emailEnter.includes('@') === -1 && passwordEnter.length < 5) {
-            return;
+        if (nameEnter.trim().length === 0 && lastnameEnter.trim() === 0 && emailEnter.trim() === 0 && passwordEnter.length < 5) {
+            return data;
         }
         // console.log(nameEnter, lastnameEnter, emailEnter, passwordEnter);
         props.onAddUser(nameInputHandler, lastnameEnter, emailEnter, passwordEnter);
