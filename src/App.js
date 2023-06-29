@@ -7,10 +7,10 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <SectionOne/>
-      <AddUser/>
-      <UserList/>
-      
+      <SectionOne />
+      <AddUser />
+      <UserList users={[]} />
+
     </Fragment>
 
   );

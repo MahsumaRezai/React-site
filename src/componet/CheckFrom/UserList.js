@@ -1,14 +1,18 @@
 import Cartform from "../AddUser/Cartfrom";
+import classes from './UsersList.module.css';
 
-const UserList = (props) => {
+const UsersList = (props) => {
     return (
-        <div>
-            <Cartform>
+        <Cartform className={classes.users}>
+            <ul>
+                {props.users.map((user) => (
+                    <li key={user.id}>
+                        {user.name} ({user.age} years old)
+          </li>
+                ))}
+            </ul>
+        </Cartform>
+    );
+};
 
-            </Cartform>
-
-        </div>
-    )
-
-}
-export default UserList;
+export default UsersList;
