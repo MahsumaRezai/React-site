@@ -7,10 +7,10 @@
 .btn {
     width: 150px;
     height: 40px;
-    background-color: darkcyan;
+    background-color: #2d2d2d;
     border: none;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }

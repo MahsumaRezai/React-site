@@ -1,7 +1,8 @@
 .card{
-    background: white;
-    box-shadow:  0 2px 8px  rgba(0, 0, 0, 0.26);
-    border-radius: 10px;
     width: 50%;
+    border: 10px solid whitesmoke;
     margin: auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 20px;
 }

@@ -8,9 +8,10 @@
 }
 
 .header {
-    background: darkcyan;
+    background: #2d2d2d;
     padding: 1rem;
     font-family: sans-serif;
+    color: white;
 
 }
 
