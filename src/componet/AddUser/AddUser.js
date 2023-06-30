@@ -14,7 +14,7 @@ const AddUser = (props) => {
         event.preventDefault();
         if (nameEnter.trim().length === 0 || lastnameEnter.trim() === 0 || emailEnter.trim() === 0 || passwordEnter.length < 5) {
             setErro({
-                title: "add your infroamtion correct",
+                title: "add your information correct",
                 massage: "Please save your infromation"
             })
             return;

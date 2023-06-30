@@ -17,9 +17,7 @@ const Error = (props) => {
                 <footer className={classes.actions}>
                     <Button onClick={props.onClick}>Okay</Button>
                 </footer>
-
             </Card>
-
         </div>
     )
 }
