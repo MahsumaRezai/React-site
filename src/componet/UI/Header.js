@@ -5,7 +5,7 @@ const Header = () => {
         <div className={classes.head}>
             <div className={classes.content}>
                 <div className={classes.title}>
-                    <h3>React site</h3>
+                    
                 </div>
                 <Button>log in</Button>
             </div>
